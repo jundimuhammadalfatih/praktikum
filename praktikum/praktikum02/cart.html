@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+  </head>
+  <body style="padding: 0; margin: 0">
+    <header style="border-bottom: solid 1px; height: 65px; background-color: lightgray">
+      <table style="height: 65px; width: 100%">
+        <tr style="text-align: center">
+          <td>
+            <img style="width: 10px" src="img/profile.png" alt="" />
+            <b>Site Name</b>
+          </td>
+          <td>
+            <a href="">Category 1</a>
+            <a href="">| Category 2 |</a>
+            <a href="">Category 3</a>
+          </td>
+          <td>
+            <img style="width: 10px" src="img/profile.png" alt="" />
+            <img style="width: 10px" src="img/profile.png" alt="" />
+            <b>Cart (1)</b>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <!-- Header -->
+
+    <section style="height: 460px; padding-top: 7%; width: 80%; margin: 0 auto">
+      <table style="border-collapse: collapse; float: left">
+        <tr>
+          <td><h1>Your Cart</h1></td>
+        </tr>
+        <tr style="border-top: solid 1px lightgray; border-bottom: solid 1px lightgray">
+          <td colspan="2">Item</td>
+          <td>Price</td>
+          <td><label for="qty">Quantity</label></td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/profile.png" style="width: 40px" />
+          </td>
+          <td>
+            <p>
+              T-shirt <br />
+              Size: Small
+            </p>
+          </td>
+          <td>$20.00</td>
+          <td>
+            <form>
+              <input type="number" id="qty" value="1" />
+            </form>
+          </td>
+        </tr>
+        <tr style="border-top: solid 1px lightgray; border-bottom: solid 1px lightgray; text-align: right">
+          <td colspan="4">Subtotal: $20.00</td>
+        </tr>
+      </table>
+
+      <table style="border-collapse: collapse; float: right">
+        <tr>
+          <td><b>Summary (1 Item)</b></td>
+        </tr>
+        <tr>
+          <td>Subtotal</td>
+          <td>$20.000</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Est.Taxes</td>
+          <td>-</td>
+        </tr>
+        <tr style="border-top: solid 1px lightgray">
+          <td><b>Total</b></td>
+          <td><b>$20.00</b></td>
+        </tr>
+        <tr>
+          <td style="text-align: center" colspan="2"><input type="submit" value="Checkout" /></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Footer -->
+    <footer style="height: 70px; border-top: solid 1px">
+      <table style="height: 70px; margin: auto; width: 90%">
+        <tr>
+          <td>
+            <b>Site Name</b>
+            <br />
+            <img style="width: 10px" src="img/profile.png" alt="" />
+            <img style="width: 10px" src="img/profile.png" alt="" />
+            <img style="width: 10px" src="img/profile.png" alt="" />
+          </td>
+          <td style="vertical-align: center">
+            <a href="">Category 1</a>
+            <a href="">| Category 2 |</a>
+            <a href="">Category 3</a>
+          </td>
+          <td style="text-align: right">
+            <form>
+              <label for="email">Stay In Touch! Join Our Newsletter</label>
+              <br />
+              <input type="email" id="email" value="Enter Email" />
+              <input type="submit" value="Subscribe" />
+            </form>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
